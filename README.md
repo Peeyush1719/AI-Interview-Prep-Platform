@@ -145,7 +145,6 @@ npm run dev
 Create a `.env` file inside the Backend folder.
 
 ```env
-PORT=3000
 
 MONGO_URI=your_mongodb_connection_string
 
@@ -186,21 +185,6 @@ Gemini AI Analysis
 Save Interview Plan
 ```
 
----
-
-# 📸 Screenshots
-
-- 🔑 Login
-- 📝 Registration
-- 🏠 Dashboard
-- 📄 Interview Plan Generator
-- 💻 Technical Questions
-- 💬 Behavioral Questions
-- 🗺️ Preparation Roadmap
-- 📊 Match Score & Skill Gap Analysis
-
----
-
 # 🌟 Current Capabilities
 
 ✅ Resume Analysis
@@ -230,7 +214,6 @@ Save Interview Plan
 - 📄 Resume PDF Download
 - 🤖 AI Resume Builder
 - 📝 Cover Letter Generator
-- 🎙️ Voice-Based Mock Interviews
 - 💬 AI Interview Chat Assistant
 - 📈 Progress Analytics Dashboard
 - 🏢 Company-Specific Interview Sets
