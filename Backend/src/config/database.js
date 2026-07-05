@@ -1,5 +1,9 @@
 const mongoose = require("mongoose")
-
+const dns=require('dns');
+dns.setServers([ // writeen because i am getting error...
+    '1.1.1.1',
+    '8.8.8.8'
+])
 
 
 async function connectToDB() {
