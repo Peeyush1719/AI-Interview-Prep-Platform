@@ -1,8 +1,9 @@
-const { Router } = require('express')
+const express = require("express")
+const Router = express.Router
 const authController = require("../controllers/auth.controller")
 const authMiddleware = require("../middlewares/auth.middleware")
 
-const authRouter = Router()
+const authRouter = Router() // creates a new router object...
 
 /**
  * @route POST /api/auth/register
@@ -33,7 +34,7 @@ authRouter.get("/logout", authController.logoutUserController)
  * @description get the current logged in user details
  * @access private
  */
-authRouter.get("/get-me", authMiddleware.authUser, authController.getMeController)
+authRouter.get("/get-me", authMiddleware.authUser, authController.getMeController) //use middleware because it checks if token valid or not..
 
 
 module.exports = authRouter
