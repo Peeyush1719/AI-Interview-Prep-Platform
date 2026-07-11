@@ -19,9 +19,7 @@ An AI-powered MERN Stack application that analyzes resumes and job descriptions 
 
 ## 🔗 Live Demo
 
-**Frontend:** https://ai-interview-prep-platform-six.vercel.app
-
-Click here: https://ai-interview-prep-platform-six.vercel.app
+**Live Application:** https://ai-interview-prep-platform-six.vercel.app
 
 ---
 
